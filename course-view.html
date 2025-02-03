@@ -3,6 +3,7 @@
     <head>
         <title>LMS - Course View</title>
     </head>
+
     <header>
         <img width = "100px" height = "100px" src ="logo.jpg">
         <h1>LMS - Learning Management System</h1>
@@ -13,7 +14,23 @@
         <a href = "index.html">Homepage</a>
     </div>
 
-    <main></main>
+    <main>
+        <table>
+            <tr>
+                <td>
+                    <form>
+                        <label for = "term">Select Term:</label>
+                        <select id = "term" name = "term">
+                            <option value ="fall23">Fall 2023</option>
+                            <option value ="winter24">Winter 2024</option>
+                            <option value ="fall24">Fall 2024</option>
+                            <option value ="winter25">Winter 2025</option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </main>
 
     <footer><p>© 2025 LMS. All rights reserved.</p></footer>
 </html>
