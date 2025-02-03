@@ -6,10 +6,12 @@
     <header>
         <img width = "100px" height = "100px" src ="logo.jpg">
         <h1>LMS - Learning Management System</h1>
+        <h2>LMS - Attempt Quiz</h2>
     </header>
 
     <div>
-        <a href = "course-view.html">Return to homepage</a>
+        <a href = "index.html">Homepage</a> | <a href = "course-view.html">Courses</a>
+        <br>
         <br>
     </div>
 
@@ -26,31 +28,105 @@
             <!--Course code-->
             <tr>
                 <td>
-                    <h2>ENSF 381 - Full Stack Web Development</h2>
+                    <h2>Course Name: Web Development</h2>
+                    <h2>Course Code: WD381</h2>
                 </td>
             </tr>
 
             <!--Quiz Details-->
             <tr>
                 <td>
-                    <dl>
                         <p>
-                            <dt><b>Topic:</b></dt>
-                            <dd>Foundations of web development as well as concepts regarding HTML essentials.</dd>
+                            <b>Topic:</b> Foundations of web development as well as concepts regarding HTML essentials.
                         </p>
-                    </dl>
                     <p><b>Quiz Deadline:</b> February 9th, 2025</p>
                     <p><b>Attempts Allowed:</b> 2</p>
                 </td>
             </tr>
 
-            <!--Question 1-->
+            <form>
+            <!--Question 1 Header-->
             <tr>
                 <td>
-
+                    <h3>Question 1</h3>
                 </td>
             </tr>
 
+            <!--Question-->
+            <tr>
+                <td>
+                    <label>How many total heading element levels are there?</label>
+                </td>
+            </tr>
+
+            <!--Response-->
+            <tr>
+                <td>
+                    <br>
+                    <input type = "radio" id = "4" name = "headers" value = "4">
+                    <label for = "4">4</label>
+                    <br>
+                    <input type = "radio" id = "5" name = "headers" value = "5">
+                    <label for = "5">5</label>
+                    <br>
+                    <input type = "radio" id = "8" name = "headers" value = "8">
+                    <label for = "8">8</label>
+                    <br>
+                    <input type = "radio" id = "6" name = "headers" value = "6">
+                    <label for = "6">6</label>
+                    <br>
+                    <input type = "radio" id = "10" name = "headers" value = "10">
+                    <label for = "10">10</label>
+                    <br>
+                    <button type = "button">Submit Answer</button>
+                </td>
+            </tr>
+
+            <!--Question 2 Header-->
+            <tr>
+                <td>
+                    <h3>Question 2</h3>
+                </td>
+            </tr>
+
+            <!--Question-->
+            <tr>
+                <td>
+                    <label>Select <b>all</b> types of Frontend errors:</label>
+                </td>
+            </tr>
+
+            <!--Response-->
+            <tr>
+                <td>
+                    <br>
+                    <input type = "checkbox" id = "errorsF" name = "errorsF">
+                    <label for = "errorsF">Database Errors</label>
+                    <br>
+                    <input type = "checkbox" id = "errorsF" name = "errorsF">
+                    <label for = "errorsF">Syntax Errors</label>
+                    <br>
+                    <input type = "checkbox" id = "errorsF" name = "errorsF">
+                    <label for = "errorsF">Runtime Errors</label>
+                    <br>
+                    <input type = "checkbox" id = "errorsF" name = "errorsF">
+                    <label for = "errorsF">Security Vulnerabilities</label>
+                    <br>
+                    <input type = "checkbox" id = "errorsF" name = "errorsF">
+                    <label for = "errorsF">Logical Errors</label>
+                    <br>
+                    <button type = "button">Submit Answer</button>
+                </td>
+            </tr>
+
+            <!--Finish Quiz Button-->
+            <tr>
+                <td>
+                    <br>
+                    <button type = "button">Finish Quiz</button>
+                </td>
+            </tr>
+            </form>
         </table>
     </main>
 
